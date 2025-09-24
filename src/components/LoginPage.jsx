@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
     <div className="login-page">
       <div className="login-header">
         <h1>Login page</h1>
-        <p><Link to="/Home">Home</Link> / Login</p>
+        <p><Link to="/">Home</Link> / Login</p>
       </div>
       <div className="login-container">
         <form className="login-form">
