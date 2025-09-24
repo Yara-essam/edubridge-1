@@ -481,3 +481,51 @@ p{
   font-weight: bold;
   color: var(--sky-blue);
 }
+
+/* Base (mobile first) */
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+/* for images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Example grid of cards */
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+/* Nav */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Media query for tablets & up */
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Media query for desktops */
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
