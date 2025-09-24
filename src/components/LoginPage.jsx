@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-export default function LoginPage() {
-const LoginPage = () => {
+
+ export const LoginPage = () => {
   return (
     <div className="login-page">
       <div className="login-header">
@@ -45,4 +45,4 @@ const LoginPage = () => {
     </div>
   );
 };
-}
+
